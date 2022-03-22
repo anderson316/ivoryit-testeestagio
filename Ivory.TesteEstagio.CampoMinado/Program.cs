@@ -29,7 +29,8 @@ namespace Ivory.TesteEstagio.CampoMinado
             }
             if (campoMinado.JogoStatus == 1)
             {
-
+                Console.WriteLine("FIM\n=========");
+                Console.WriteLine(campoMinado.Tabuleiro);
             }
         }
         private static void TrazerFechados(char[,] matrizJogo)
