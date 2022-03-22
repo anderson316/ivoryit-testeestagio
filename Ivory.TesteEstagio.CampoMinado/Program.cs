@@ -25,7 +25,6 @@ namespace Ivory.TesteEstagio.CampoMinado
                 var matrizJogo = CriarTabulerio(campoMinado.Tabuleiro);
                 TrazerFechados(matrizJogo);
                 CalcularProbabilidade(campoMinado, matrizJogo);
-                var compare = campoMinado.Tabuleiro;
             }
             if (campoMinado.JogoStatus == 1)
             {
